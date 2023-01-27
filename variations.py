@@ -193,7 +193,7 @@ ngon.iterate(10000)
 colors = ngon.gradient_color
 
 if __name__ == '__main__':
-    """Main koden for å kjøre Part4b"""
+    """Main code to run Part4b"""
     N = 100
     grid_values = np.linspace(-1, 1, N)
     x, y = np.meshgrid(grid_values, grid_values)
@@ -215,7 +215,7 @@ if __name__ == '__main__':
     plt.show()
 
 if __name__ == '__main__':
-    """Main koden for å kjøre Part4c"""
+    """Main code to run Part4c"""
     fig, axs = plt.subplots(2, 2, figsize=(9, 9))
     for i, (ax, variation) in enumerate(zip(axs.flatten(), transformations)):
        
