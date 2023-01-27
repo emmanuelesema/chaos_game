@@ -186,7 +186,7 @@ if __name__ == '__main__':
     tri._starting_point()
     tri.iterate(10000, discard=5)
     tri.show(color=True)
-    tri.savepng('figures/chaos{1}',color=True)
+    tri.savepng('chaos{1}.png',color=True)
     
 if __name__ == '__main__':
     tri = ChaosGame(4, 1/3)
@@ -195,7 +195,7 @@ if __name__ == '__main__':
     tri._starting_point()
     tri.iterate(10000, discard=5)
     tri.show(color=True)
-    tri.savepng('figures/chaos{2}', color=True)
+    tri.savepng('chaos{2}.png', color=True)
 
 if __name__ == '__main__':
     tri = ChaosGame(5, 1/3)
@@ -204,7 +204,7 @@ if __name__ == '__main__':
     tri._starting_point()
     tri.iterate(10000, discard=5)
     tri.show(color=True)
-    tri.savepng('figures/chaos{3}', color=True)
+    tri.savepng('chaos{3}.png', color=True)
     
 if __name__ == '__main__':
     tri = ChaosGame(5, 3/8)
@@ -213,7 +213,7 @@ if __name__ == '__main__':
     tri._starting_point()
     tri.iterate(10000, discard=5)
     tri.show(color=True)
-    tri.savepng('figures/chaos{4}', color=True)
+    tri.savepng('chaos{4}.png', color=True)
 
 if __name__ == '__main__':
     tri = ChaosGame(6, 1/3)
@@ -222,4 +222,4 @@ if __name__ == '__main__':
     tri._starting_point()
     tri.iterate(10000, discard=5)
     tri.show(color=True)
-    tri.savepng('figures/chaos{5}', color=True)
+    tri.savepng('chaos{5}.png', color=True)
